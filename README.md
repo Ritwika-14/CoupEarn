@@ -7,13 +7,13 @@ CoupEarn is a web-application where you can list your unused coupons for sale or
 ## Installation
 To run CoupEarn locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/CropSync.git`
-2. Install the required dependencies: `npm install`
-3. Set up the database connection by configuring the database credentials in `config.js`.
+1. Clone the repository: `git clone https://github.com/your-username/CoupEARN.git`
+2. Install the required dependencies: `npm install` a `node modules` folder gets created.
+3. Set up the database connection by configuring the database credentials.
 4. Run the application: `npm start`
 5. Access the website in your browser at `http://localhost:3000`
-6. 
-Note: Make sure you have Node.js and npm installed on your system.
+
+Note: Make sure you have Node.js and npm and firebase installed on your system.
 
 # Project Tech Stack
 
