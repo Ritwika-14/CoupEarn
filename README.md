@@ -1,4 +1,4 @@
-# 🎉 Welcome to CoupEarn - Your Ultimate Coupon Exchange Haven! 🎊
+# 🎉 Welcome to CoupEarn-Your Ultimate Coupon Exchange Haven! 🎊
 Looking to turn those unused coupons into cash or snag incredible discounts on your favorite brands? Look no further than CoupEarn - the game-changer in the world of savings!
 
 🛍️ Maximize Your Savings, Minimize Your Expenses! 🌟
