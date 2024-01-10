@@ -1,7 +1,7 @@
-# 🎉 Welcome to CoupEarn-Your Ultimate Coupon Exchange Haven! 🎊
+# 🎉 Welcome to CoupEarn! 🎊
 Looking to turn those unused coupons into cash or snag incredible discounts on your favorite brands? Look no further than CoupEarn - the game-changer in the world of savings!
 
-🛍️ Maximize Your Savings, Minimize Your Expenses! 🌟
+🛍️ Maximize Your Savings, Minimize Your Expenses!🌟
 
 [🌈 TRY 🌟](https://coup-earn.netlify.app/)
 
@@ -11,11 +11,10 @@ To run CoupEarn locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/CoupEARN.git`
 2. Install the required dependencies: `npm install` a `node modules` folder gets created.
-3. Set up the database connection by configuring the database credentials.
+3. Set up the database connection by configuring the database credentials `npm install firebase`
 4. Run the application: `npm start`
 5. Access the website in your browser at `http://localhost:3000`
-
-Note: Make sure you have Node.js and npm and firebase installed on your system.
+Note: Make sure you have Node.js and npm installed on your system.
 
 # Project Tech Stack
 
@@ -31,7 +30,6 @@ This project is built using the following technologies:
 
 ### 1. Fork the Repository
 
-- Navigate to the GitHub repository containing the Markdown file you want to modify.
 - Click on the "Fork" button in the top right corner of the repository page.
 - This will create a copy of the repository in your GitHub account.
 
@@ -43,7 +41,7 @@ This project is built using the following technologies:
   git clone https://github.com/your-username/repository.git
   cd repository
 
-  3. **Create a Branch**
+3. **Create a Branch**
    - Create a new branch:
      ```bash
      git checkout -b branch-name
@@ -88,7 +86,12 @@ This project is built using the following technologies:
       git merge upstream/main
       git push origin main
       ```
-That's it! You've successfully created a pull request.
+<h2>Congratulations! You've made your first contribution! 🙌🏼</h2>
+
+</br>
+<p align = "center">
+Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> to this repo
+</p>
 
 
   
