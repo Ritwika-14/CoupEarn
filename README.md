@@ -1,7 +1,7 @@
 # 🎉 Welcome to CoupEarn!
 Looking to turn those unused coupons into cash or searching for them? Look no further than CoupEarn!
 
-# What is Coup-Earn?  🎊
+# What is Coup-Earn? 🎊
 Welcome to our web application, where you can effortlessly monetize your unused coupons and vouchers! Simply input your available coupons, set your selling price, and specify the terms and conditions. Once published on our platform, interested buyers can request to purchase your listed coupons. Upon receiving a request, you'll be notified via email to approve the payment method.
 
 Conversely, if you're on the lookout for great deals, you can be a buyer too. Imagine snagging a $20 off voucher for your favorite brand at just $2! Browse through various listings, find the deals that suit you, and connect with the seller seamlessly through our platform. Your coupon transactions have never been this smooth!
