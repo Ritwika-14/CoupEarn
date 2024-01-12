@@ -13,7 +13,8 @@ Conversely, if you're on the lookout for great deals, you can be a buyer too. Im
 ## Installation
 To run CoupEarn locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/CoupEARN.git`
+1. Fork the repository using the `Fork` button on the top right.
+1. Clone the repository: `git clone https://github.com/your-username/CoupEarn.git`
 2. Install the required dependencies: `npm install` a `node modules` folder gets created.
 3. Set up the database connection by configuring the database credentials `npm install firebase`
 4. Run the application: `npm start`
