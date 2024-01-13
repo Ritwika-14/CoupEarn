@@ -2,12 +2,9 @@
 Looking to turn those unused coupons into cash or searching for them? Look no further than CoupEarn!
 
 # What is Coup-Earn? 🎊
-Welcome to our web application, where you can effortlessly monetize your unused coupons and vouchers! Simply input your available coupons, set your selling price, and specify the terms and conditions. Once published on our platform, interested buyers can request to purchase your listed coupons. Upon receiving a request, you'll be notified via email to approve the payment method.
+Welcome to our platform! Easily make money by selling your unused coupons or find great deals on discounted vouchers. Just list your coupons, set a price, and specify terms. Buyers can request, and you approve the payment method via email. If you're a buyer, discover amazing discounts and connect with sellers hassle-free. Maximize savings, minimize expenses – smooth coupon transactions await! 🛍️💰
 
-Conversely, if you're on the lookout for great deals, you can be a buyer too. Imagine snagging a $20 off voucher for your favorite brand at just $2! Browse through various listings, find the deals that suit you, and connect with the seller seamlessly through our platform. Your coupon transactions have never been this smooth!
-🛍️ Maximize Your Savings, Minimize Your Expenses!🌟
-
-[🌈 TRY 🌟](https://coup-earn.netlify.app/)
+[🌈 Coup-Earn 🌟](https://coup-earn.netlify.app/)
 
 
 ## Installation
@@ -43,8 +40,8 @@ This project is built using the following technologies:
 - Open a terminal on your local machine.
 - Use the `git clone` command to clone your forked repository to your local machine.
   ```bash
-  git clone https://github.com/your-username/repository.git
-  cd repository
+  git clone https://github.com/your-username/CoupEarn.git
+  cd CoupEarn
 
 3. **Create a Branch**
    - Create a new branch:
@@ -53,7 +50,6 @@ This project is built using the following technologies:
      ```
 
 ### 4. Make Changes
-   - Open the Markdown file and make your changes.
 
 ### 5. Commit Changes
    - Save changes and commit:
