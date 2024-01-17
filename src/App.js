@@ -208,8 +208,8 @@ function App() {
           onChange={(e) => setNewCouponPrice(e.target.value)}
         />
         <div className="fileinput">
-        <input type="file"  onChange={(e) => setFileUpload(e.target.files[0])} />
-        <button  onClick={uploadFile}> Upload File </button>
+        <input  type="file"  onChange={(e) => setFileUpload(e.target.files[0])} />
+        <button  onClick={uploadFile} className="btn2"> Upload File </button>
         </div>
         
         <button className="btn1" onClick={onSubmitCoupon}> Submit Coupon</button>
