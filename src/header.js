@@ -2,6 +2,9 @@ import react, { useContext } from "react"
 import Profile from "./profile"
 import pic from "./logo1.png"
 
+function F1(){
+    alert("Sign in First")
+}
 
 const Header=()=>{
     return(
@@ -17,7 +20,7 @@ const Header=()=>{
             <a href="#contact">Contact</a>
             
         </nav>
-        <Profile />
+        <a href= "#"><div className="popup" onClick={F1}><Profile /></div></a>
         <div class="buttons">
             <button id="search-btn">
                 <i class="fas fa-search"></i>
