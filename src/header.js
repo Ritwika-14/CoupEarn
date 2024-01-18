@@ -2,12 +2,14 @@ import react, { useContext } from "react"
 import Profile from "./profile"
 import pic from "./logo1.png"
 
-function F1(){
-    alert("Sign in First")
-}
+
 
 const Header=()=>{
+    function F1(){
+        alert("Sign in First")
+    }
     return(
+        
         <header class="header" >
         <a href="#" class="logo">
             <img className="logo2" src={pic} />
