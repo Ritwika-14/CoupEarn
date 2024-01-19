@@ -93,7 +93,3 @@ This project is built using the following technologies:
 <p align = "center">
 Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> to this repo
 </p>
-
-
-  
-
