@@ -1,22 +1,24 @@
 # 🎉Welcome to CoupEarn!
+
 Looking to turn those unused coupons into cash or searching for them? Look no further than CoupEarn!
 
 # What is Coup-Earn?🎊
+
 Welcome to our platform! Easily make money by selling your unused coupons or find great deals on discounted vouchers. Just list your coupons, set a price, and specify terms. Buyers can request, and you approve the payment method via email. If you're a buyer, discover amazing discounts and connect with sellers hassle-free. Maximize savings, minimize expenses – smooth coupon transactions await! 🛍️💰
 
 [🌈 Coup-Earn 🌟](https://coup-earn.netlify.app/)
 
-
 ## Installation
+
 To run CoupEarn locally, follow these steps:
 
 1. Fork the repository using the `Fork` button on the top right.
 1. Clone the repository: `git clone https://github.com/your-username/CoupEarn.git`
-2. Install the required dependencies: `npm install` a `node modules` folder gets created.
-3. Set up the database connection by configuring the database credentials `npm install firebase`
-4. Run the application: `npm start`
-5. Access the website in your browser at `http://localhost:3000`
-Note: Make sure you have Node.js and npm installed on your system.
+1. Install the required dependencies: `npm install` a `node modules` folder gets created.
+1. Set up the database connection by configuring the database credentials `npm install firebase`
+1. Run the application: `npm start`
+1. Access the website in your browser at `http://localhost:3000`
+   Note: Make sure you have Node.js and npm installed on your system.
 
 # Project Tech Stack
 
@@ -42,6 +44,7 @@ This project is built using the following technologies:
   ```bash
   git clone https://github.com/your-username/CoupEarn.git
   cd CoupEarn
+  ```
 
 3. **Create a Branch**
    - Create a new branch:
@@ -52,34 +55,41 @@ This project is built using the following technologies:
 ### 4. Make Changes
 
 ### 5. Commit Changes
-   - Save changes and commit:
-     ```bash
-     git add .
-     git commit -m "Describe changes"
-     ```
+
+- Save changes and commit:
+  ```bash
+  git add .
+  git commit -m "Describe changes"
+  ```
 
 ### 6. **Push Changes**
-   - Push changes to your fork:
-     ```bash
-     git push origin branch-name
-     ```
+
+- Push changes to your fork:
+  ```bash
+  git push origin branch-name
+  ```
 
 ### 7. **Create a Pull Request**
-   - Visit your fork on GitHub.
-   - Switch to your branch.
-   - Click "New Pull Request."
+
+- Visit your fork on GitHub.
+- Switch to your branch.
+- Click "New Pull Request."
 
 ### 8. **Compare Changes**
-   - Ensure the base repository and branch are correct.
+
+- Ensure the base repository and branch are correct.
 
 ### 9. **Create Pull Request**
-   - Add a title and description.
-   - Click "Create Pull Request."
+
+- Add a title and description.
+- Click "Create Pull Request."
 
 ### 10. **Review and Merge**
+
     - Wait for review and merge by repository maintainers.
 
 ### 11. **Sync Your Fork (Optional)**
+
     - Periodically sync your fork:
       ```bash
       git fetch upstream
@@ -87,6 +97,7 @@ This project is built using the following technologies:
       git merge upstream/main
       git push origin main
       ```
+
 <h2>Congratulations! You've made your first contribution! 🙌🏼</h2>
 
 </br>

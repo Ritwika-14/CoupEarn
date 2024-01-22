@@ -2,10 +2,9 @@
 
 ## Welcome Contributors! :octocat:
 
-Thank you for considering contributing to our project. Your contributions are highly valued, and this guide is designed to ensure a smooth and collaborative experience for everyone involved. 
----
+## Thank you for considering contributing to our project. Your contributions are highly valued, and this guide is designed to ensure a smooth and collaborative experience for everyone involved.
 
-##  Bug Reports and Issue Submissions
+## Bug Reports and Issue Submissions
 
 Reporting bugs or submitting detailed issues is a valuable way to contribute to the project. We appreciate well-written bug reports that include thorough information. To ensure a productive conversation, please adhere to the following:
 
@@ -76,7 +75,7 @@ Consistency is key. Follow existing styles, formatting, and naming conventions o
 
 ---
 
-# Conclusion 
+# Conclusion
 
 Thank you for considering contributing to our project! Here's a summary of the contribution process:
 
