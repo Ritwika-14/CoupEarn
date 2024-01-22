@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/footer/Footer";
 export default function Review() {
   return (
     <div>
@@ -33,31 +34,7 @@ export default function Review() {
           </p>
         </div>
       </section>
-
-      <section class="footer">
-        <div class="search">
-          <input type="text" class="search-input" placeholder="Search" />
-          <button class="btn btn-primary">search</button>
-        </div>
-        <div class="share">
-          <a href="#" class="fab fa-facebook"></a>
-          <a href="#" class="fab fa-twitter"></a>
-          <a href="#" class="fab fa-instagram"></a>
-          <a href="#" class="fab fa-linkedin"></a>
-          <a href="#" class="fab fa-pinterest"></a>
-        </div>
-        <div class="links">
-          <a href="#home">home</a>
-          <a href="#home">about</a>
-          <a href="#buy">buy</a>
-          <a href="#sell">sell</a>
-          <a href="#review">review</a>
-          <a href="#contact">contact</a>
-        </div>
-        <div class="credit">
-          Copyright &copy; coup-earn.com | All rights reserved
-        </div>
-      </section>
+      <Footer />
     </div>
   );
 }

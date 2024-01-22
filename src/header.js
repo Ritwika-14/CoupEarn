@@ -1,12 +1,12 @@
 import react, { useContext } from "react";
 import Profile from "./profile";
-import pic from "./logo1.png";
+import pic from "./assets/logo1.png";
 
 const Header = () => {
   return (
     <header class="header">
-      <a href="#" class="logo">
-        <img className="logo2" src={pic} />
+      <a href="/" class="logo">
+        <img className="logo2" src={pic} alt="logo" />
       </a>
       <nav class="navbar">
         <a href="#home" class="active">

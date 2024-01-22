@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "./logo1.png";
+import pic from "./assets/logo1.png";
 export default function Landing() {
   return (
     <div>
@@ -12,7 +12,7 @@ export default function Landing() {
           </p>
         </div>
         <div className="logosec">
-          <img src={pic} />
+          <img src={pic} alt="logo" />
         </div>
       </section>
     </div>
