@@ -238,12 +238,6 @@ function App() {
         </div>
       ) : (
 
-      //   <div className="btn" onClick={()=>{temp=variable}}>
-      //   <a href="https://buy.stripe.com/test_fZe8A87MOgssegEaEE">Pay {coupon.price.includes('Rs') ? (
-      //   <span>{coupon.price}</span>
-      // ) : (
-      //   <span>Rs {coupon.price}</span>
-      // )}</a></div>
         
         <div className="btn" onClick={()=>{temp=variable}}>
         <a href="https://buy.stripe.com/test_fZe8A87MOgssegEaEE">Pay {coupon.price.includes('Rs') ? (
