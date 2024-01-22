@@ -286,6 +286,7 @@ function App() {
     :
     <div>
        { user && <div className="Authenticate"><h1 className="heading">Sign-up</h1>
+      <a href="https://coupearn.netlify.app/" class="back">Go Back</a>
        <input className="field"
          placeholder="Email..."
          onChange={(e) => setEmail(e.target.value)}
