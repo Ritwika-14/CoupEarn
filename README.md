@@ -4,7 +4,7 @@ Looking to turn those unused coupons into cash or searching for them? Look no fu
 # What is Coup-Earn?🎊
 Welcome to our platform! Easily make money by selling your unused coupons or find great deals on discounted vouchers. Just list your coupons, set a price, and specify terms. Buyers can request, and you approve the payment method via email. If you're a buyer, discover amazing discounts and connect with sellers hassle-free. Maximize savings, minimize expenses – smooth coupon transactions await! 🛍️💰
 
-[🌈 Coup-Earn 🌟](https://coup-earn.netlify.app/)
+[Coup-Earn 🌟](https://coup-earn.netlify.app/)
 
 
 ## Installation
