@@ -66,6 +66,24 @@ a {
     cursor: pointer;
 }
 
+
+input[type="file" i] 
+{ 
+    color: #ccc;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: purple;
+    margin: 5px;
+    padding: 1.2rem 1.75rem;
+    align-items: baseline;
+    margin-left: 7%;
+    
+}
+input[type="file" i]:hover{
+    background-color: rgb(180, 38, 38);
+    opacity: 0.9;
+}
+
 .btn3 {
     display: inline-block;
     padding: 1.7rem 3.75rem;
@@ -75,8 +93,9 @@ a {
     background-color: var(--black-color);
     cursor: pointer;
     position: absolute;
-    top: 84%;
-    left: 19%;
+    text-align: center;
+    top: 98%;
+    
 }
 
 .btn3:hover {
@@ -86,7 +105,7 @@ a {
 .btn2 {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: purple;
     color: white;
     border: none;
     border-radius: 5px;
@@ -94,7 +113,7 @@ a {
 }
 
 .btn2:hover {
-    background-color: #45a049;
+    background-color: rgb(180, 38, 38);
 }
 
 .btn:hover {
@@ -169,7 +188,7 @@ a {
 ::-webkit-scrollbar {
     height: 0.5rem;
     width: 1rem;
-    background-color: rgb(7, 126, 182);
+    background-color: rgb(105, 19, 111);
 }
 
 ::-webkit-scrollbar-track {
@@ -178,11 +197,11 @@ a {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 3rem;
-    background-color: greenyellow;
+    background-color: rgb(255, 255, 255);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(211, 255, 144);
+    background-color: rgb(201, 34, 42);
 }
 
 /* ------------------------------------------HEADER SECTION */
@@ -500,7 +519,7 @@ a {
 }
 
 .b .h3 {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 /* ------------------------------------------ABOUT US SECTION */
@@ -773,13 +792,17 @@ a {
 }
 
 .btn1 {
-    margin: 14px 10px;
+    margin: 40px 10px;
     width: 150px;
     height: 40px;
     border-radius: 30px;
     padding: 6px 6px;
-    background-image: linear-gradient(rgb(56, 29, 56), rgb(95, 63, 69));
+    background-color: #553655;
     color: white;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color:  rgb(180, 38, 38);
 }
 
 .btn2 {
@@ -788,8 +811,9 @@ a {
     height: 40px;
     border-radius: 30px;
     padding: 6px 6px;
-    background-image: linear-gradient(rgb(221, 3, 21), rgb(212, 125, 141));
+    background-image: purple;
     color: white;
+    
 }
 
 .btn a {
@@ -963,8 +987,6 @@ a {
         max-width: 568px;
     }
 
-    .btn3 {}
-
     .flex1 {
         margin-left: 100px;
         padding-left: 100px;
@@ -994,9 +1016,6 @@ a {
     .heading {
         font-size: 3.5rem;
     }
-
-    .btn3 {}
-
 
 }
 

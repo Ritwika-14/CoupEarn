@@ -56,4 +56,3 @@ export async function upload(file, currentUser, setLoading) {
   setLoading(false);
   alert("Uploaded file!");
 }
-
