@@ -237,9 +237,15 @@ function App() {
           <p>Coupon code: {coupon.code}</p>
         </div>
       ) : (
+
         
         <div className="btn" onClick={()=>{temp=variable}}>
-        <a href="https://buy.stripe.com/test_fZe8A87MOgssegEaEE">Pay Rs {coupon.price}</a></div>
+        <a href="https://buy.stripe.com/test_fZe8A87MOgssegEaEE">Pay {coupon.price.includes('Rs') ? (
+        <span>{coupon.price}</span>
+      ) : (
+        <span>Rs {coupon.price} </span>
+      )}
+ </a></div>
       )}
             </div>
         </div>
