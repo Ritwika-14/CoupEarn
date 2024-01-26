@@ -11,11 +11,13 @@ Welcome to our platform! Easily make money by selling your unused coupons or fin
 To run CoupEarn locally, follow these steps:
 
 1. Fork the repository using the `Fork` button on the top right.
-1. Clone the repository: `git clone https://github.com/your-username/CoupEarn.git`
-2. Install the required dependencies: `npm install` a `node modules` folder gets created.
-3. Set up the database connection by configuring the database credentials `npm install firebase`
-4. Run the application: `npm start`
-5. Access the website in your browser at `http://localhost:3000`
+2. Clone the repository: `git clone https://github.com/your-username/CoupEarn.git`
+3. Install the required dependencies: `npm install` a `node modules` folder gets created.
+4. To address all issues (including breaking changes), run:` npm audit fix --force`
+5. Set up the database connection by configuring the database credentials `npm install firebase`
+6. Run the application: `npm start`
+7. Access the website in your browser at `http://localhost:3000`
+8. 
 Note: Make sure you have Node.js and npm installed on your system.
 
 # Project Tech Stack
