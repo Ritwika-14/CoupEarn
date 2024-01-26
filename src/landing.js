@@ -7,8 +7,8 @@ export default function Landing(){
         <div>
     <section class="home" id="home">
         <div class="content">
-        <h3 class="b">Sell unused Coupons</h3>
-        <p>Raise your hand if you've collected expiring coupons from UPI payments 👋😉</p>
+        <h3 class="b">Sell Unused Coupons</h3>
+        <p>Raise your hand if you've collected expiring coupons from UPI payments👋😉</p>
         
         </div>
         <div className="logosec">
