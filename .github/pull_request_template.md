@@ -27,7 +27,7 @@ Close #<issue_no>
 # Checklist: (mandatory)
 
 - [ ] I have mentioned the issue number in my Pull Request.
-- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have added a screenshot as a proof of my work.
 
 <!-- [X] - put a cross/X inside [] to check the box -->
 
