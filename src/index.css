@@ -783,12 +783,6 @@ input[type="file" i]:hover{
 
 .field1 {
     width: 400px;
-    height: 50px;
-    margin: 10px 200px;
-    border-radius: 30px;
-    padding-left: 12px;
-    padding-top: 22px;
-    padding-bottom: 22px;
 }
 
 .btn1 {
@@ -803,6 +797,7 @@ input[type="file" i]:hover{
 }
 .btn1:hover{
     background-color:  rgb(180, 38, 38);
+    cursor: pointer;
 }
 
 .btn2 {
