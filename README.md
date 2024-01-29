@@ -6,7 +6,6 @@ Welcome to our platform! Easily make money by selling your unused coupons or fin
 
 [Coup-Earn 🌟](https://coup-earn.netlify.app/)
 
-
 ## Installation
 To run CoupEarn locally, follow these steps:
 
