@@ -16,7 +16,6 @@ To run CoupEarn locally, follow these steps:
 5. Set up the database connection by configuring the database credentials `npm install firebase`
 6. Run the application: `npm start`
 7. Access the website in your browser at `http://localhost:3000`
-8. 
 Note: Make sure you have Node.js and npm installed on your system.
 
 # Project Tech Stack
