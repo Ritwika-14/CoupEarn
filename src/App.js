@@ -7,6 +7,8 @@ import {
   signOut,
 } from "firebase/auth";
 
+
+
 import Profile from "./profile"
 import  Landing from "./landing";
 import Header from "./header";
@@ -204,11 +206,12 @@ function App() {
         <input className="elements"
           placeholder="Price..."
           onChange={(e) => setNewCouponPrice(e.target.value)}
-        />         
+        />
         <div className="fileinput">
-        <input  type="file"  onChange={(e) => setFileUpload(e.target.files[0])} />        
-        <button  onClick={uploadFile} className="btn2"> Upload File </button>
+        <input type="file"  onChange={(e) => setFileUpload(e.target.files[0])} />
+        <button  onClick={uploadFile}> Upload File </button>
         </div>
+        
         <button className="btn1" onClick={onSubmitCoupon}> Submit Coupon</button>
       </div>
 
@@ -234,15 +237,9 @@ function App() {
           <p>Coupon code: {coupon.code}</p>
         </div>
       ) : (
-
         
         <div className="btn" onClick={()=>{temp=variable}}>
-        <a href="https://buy.stripe.com/test_fZe8A87MOgssegEaEE">Pay {coupon.price.includes('Rs') ? (
-        <span>{coupon.price}</span>
-      ) : (
-        <span>Rs {coupon.price} </span>
-      )}
- </a></div>
+        <a href="https://buy.stripe.com/test_fZe8A87MOgssegEaEE">Pay Rs {coupon.price}</a></div>
       )}
             </div>
         </div>
