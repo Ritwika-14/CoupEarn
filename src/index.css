@@ -1,9 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-    background-image: linear-gradient(rgba(255, 144, 249, 0.932), rgb(64, 64, 195));
-    --black-color: #252525;
-    --border: 0.1rem solid rgba(255, 255, 255, 0.4);
+    --main-color: rgba(255, 144, 249, 0.932);
+    --color: #252525;
+    --color1: #ffffff;
+    --border: 0.1rem solid #ffffff;
+}
+[data-theme="dark"]{
+    --main-color: rgba(134, 30, 146, 0.932);
+    --color: #ffffff;
+    --color1: #252525;
+    --border: 0.1rem solid #252525;
+}
+.dark_mode {
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.dark_mode_label {
+    width: 65px;
+    height: 30px;
+    position: relative;
+    display: block;
+    background: #ebebeb;
+    border-radius: 200px;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4),
+        inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.dark_mode_label:after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background: linear-gradient(180deg, #ffcc89, #d8860b);
+    border-radius: 180px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.dark_mode_input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.dark_mode_input:checked + .dark_mode_label {
+    background: #242424;
+}
+.dark_mode_input:checked + .dark_mode_label:after {
+    left: 62px;
+    transform: translateX(-100%);
+    background: linear-gradient(180deg, #777, #3a3a3a);
+}
+.dark_mode_label:active:after {
+    width: 30px;
+}
+
+.dark_mode_label svg {
+    position: absolute;
+    width: 20px;
+    top: 5px;
+    z-index: 100;
+}
+.dark_mode_label svg.sun {
+    left: 5px;
+    fill: #fff;
+    transition: 0.3s;
+}
+.dark_mode_label svg.moon {
+    left: 40px;
+    fill: #7e7e7e;
+    transition: 0.3s;
+}
+.dark_mode_input:checked + .dark_mode_label svg.sun {
+    fill: #7e7e7e;
+}
+.dark_mode_input:checked + .dark_mode_label svg.moon {
+    fill: #fff;
 }
 
 * {
@@ -48,6 +123,12 @@ img {
     border-radius: 70px;
 
     margin-right: 10px;
+}
+
+#icon{
+    width: 60px;
+    cursor: pointer;
+    position: sticky;
 }
 
 a {
@@ -214,7 +295,7 @@ input[type="file" i]:hover{
     padding: 0 7%;
     margin: 2rem 7%;
     border-radius: 30rem;
-    box-shadow: 0px 0px 17px 2px white;
+    box-shadow: 0px 0px 17px 2px var(--color1);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -368,8 +449,8 @@ input[type="file" i]:hover{
 
 .home .content h3 {
     font-size: 6rem;
-    color: #2b2727;
-    background: -webkit-linear-gradient(#553655, rgb(8, 7, 17));
+    color: var(--color);
+    background: var(--color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -536,8 +617,8 @@ input[type="file" i]:hover{
 .element1 {
     width: 400px;
     height: 80px;
-    background-color: #2b2727;
-    color: #f3e6e6;
+    background-color: white;
+    color: var(--color1);
     margin: 1px 2px;
     border-radius: 10px;
     padding: 20px 18px;
@@ -581,7 +662,7 @@ input[type="file" i]:hover{
 /* ------------------------------------------CONTACT SECTION */
 .contact .row {
     display: flex;
-    background-color: var(--black-color);
+    background-color: var(--color);
     flex-wrap: wrap;
     gap: 1rem;
 }
@@ -601,7 +682,7 @@ input[type="file" i]:hover{
 .contact .row form h3 {
     text-transform: uppercase;
     font-size: 3.5rem;
-    color: #fff;
+    color: rgb(48, 108, 235);
 }
 
 .contact .row form .inputBox {
@@ -627,8 +708,8 @@ input[type="file" i]:hover{
 }
 
 .contact .row form .btn {
-    color: var(--main-color);
-    background-color: #fff;
+    color: palevioletred;
+    background-color: var(--color1);
     font-weight: bold;
 }
 
@@ -678,7 +759,7 @@ input[type="file" i]:hover{
 
 /* ------------------------------------------FOOTER SECTION */
 .footer {
-    background-color: var(--black-color);
+    background-color: var(--color);
     text-align: center;
 }
 
@@ -689,11 +770,13 @@ input[type="file" i]:hover{
 
 .footer .search .search-input {
     width: 30rem;
+    background-color: var(--color1);
 }
 
 .footer .search .btn-primary {
     padding: 1rem 2rem;
     margin-left: 1rem;
+    color: var(--color1);
 }
 
 .footer .share {
@@ -701,7 +784,7 @@ input[type="file" i]:hover{
 }
 
 .footer .share a {
-    color: #fff;
+    color: var(--color1);
     font-size: 2rem;
     width: 5rem;
     height: 5rem;
@@ -713,7 +796,7 @@ input[type="file" i]:hover{
 
 
 .footer .share a:hover {
-    background-color: var(--main-color);
+    background-color: var(--color);
 }
 
 .footer .links {
@@ -724,27 +807,27 @@ input[type="file" i]:hover{
 }
 
 .footer .links a {
-    background-color: var(--main-color);
+    background-color: var(--color1);
     padding: 0.7rem 2rem;
-    color: #fff;
+    color: var(--color);
     border: var(--border);
 }
 
 .footer .links a:hover {
-    background-color: var(--black-color);
+    background-color: var(--color);
     opacity: 0.7;
 
 }
 
 .footer .credit {
     font-size: 2rem;
-    color: #fff;
+    color: var(--color1);
     font-weight: 300;
     padding-top: 1.5rem;
 }
 
 .footer .credit span {
-    color: var(--main-color);
+    color: var(--color);
 }
 
 
