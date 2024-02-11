@@ -803,6 +803,7 @@ input[type="file" i]:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 15px;
     gap: 1rem;
 }
 
