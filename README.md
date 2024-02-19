@@ -1,4 +1,4 @@
-# 🎉Welcome to CoupEarn!
+# 🎉Welcome to CoupEarn! 
 Looking to turn those unused coupons into cash or searching for them? Look no further than CoupEarn!
 
 # What is Coup-Earn?🎊
