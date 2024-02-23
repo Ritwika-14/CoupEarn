@@ -183,7 +183,7 @@ function App() {
       <>
       <Header />
       <Landing />
-      <div className="flex1"><span className="btn3" onClick={()=>{user?setLogging(!logging):setLogging(logging)}}>{user?"Sign up":"Signed-in"}</span></div>
+      <span className="btn3" onClick={()=>{user?setLogging(!logging):setLogging(logging)}}>{user?"Sign up":"Signed-in"}</span>
 
       <div className="coupon-sed" id="sell">
         <h1 className="heading">Sell Coupons</h1>
